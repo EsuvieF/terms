@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Narrow One 共有アカウント 利用規約</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{
+  --red:#b00020;
+  --dark:#0f0f10;
+  --card:#1b1c1e;
+  --text:#eaeaea;
+  --muted:#b9b9b9;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(1200px 400px at 50% -100px, #222 0%, #0b0b0c 40%, #000 100%);
+  color:var(--text);
+}
+header{
+  background:var(--red);
+  color:#fff;
+  padding:16px 12px;
+  text-align:center;
+  font-weight:800;
+  letter-spacing:.5px;
+}
+.container{
+  max-width:900px;
+  margin:32px auto;
+  padding:0 12px;
+}
+.card{
+  background:linear-gradient(180deg, #202124, var(--card));
+  border-radius:14px;
+  padding:24px;
+  box-shadow:0 20px 40px rgba(0,0,0,.45);
+}
+h1,h2{margin:0 0 12px}
+h2{margin-top:22px}
+p,li{line-height:1.7}
+ul{padding-left:18px}
+hr{border:0;border-top:1px solid #2b2c2f;margin:22px 0}
+.badge{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  background:#2a2b2f;
+  color:#fff;
+  font-weight:700;
+}
+.danger{color:#ff6b6b;font-weight:800}
+.muted{color:var(--muted)}
+.form{
+  margin-top:16px;
+  display:grid;
+  gap:12px;
+}
+label{font-weight:700}
+input[type="text"],input[type="password"]{
+  width:100%;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1px solid #2b2c2f;
+  background:#0e0f11;
+  color:#fff;
+  outline:none;
+}
+input::placeholder{color:#8a8a8a}
+.checkbox{
+  display:flex; gap:10px; align-items:center;
+}
+.checkbox input{transform:scale(1.2)}
+button{
+  appearance:none;
+  border:0;
+  border-radius:10px;
+  padding:12px 18px;
+  font-size:16px;
+  font-weight:800;
+  cursor:pointer;
+}
+.primary{
+  background:#7a1d1d;
+  color:#fff;
+}
+.primary:disabled{
+  background:#3a1414; color:#c7c7c7; cursor:not-allowed;
+}
+.secondary{
+  background:#2a2b2f; color:#fff;
+}
+.center{text-align:center}
+.hidden{display:none}
+.footer{
+  text-align:center;
+  color:#9a9a9a;
+  margin:18px 0 40px;
+  font-size:14px;
+}
+.note{
+  background:#111216;
+  border:1px dashed #2b2c2f;
+  border-radius:10px;
+  padding:12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>⚠ 必ず利用規約を最後まで読んでください ⚠</header>
+
+<div class="container">
+
+  <!-- PAGE 1: 規約 + 同意 -->
+  <div class="card" id="page1">
+    <span class="badge">同意確認</span>
+    <p class="muted">共有アカウントを利用する前に、以下を入力・同意してください。</p>
+
+    <h2>第1条（利用目的）</h2>
+    <p>本アカウントは、Narrow Oneのプレイ目的にのみ使用するものとします。</p>
+
+    <h2>第2条（設定操作の禁止）</h2>
+    <ul>
+      <li>Googleアカウント設定画面へのアクセス禁止</li>
+      <li>ログイン履歴・セキュリティ履歴の確認禁止</li>
+      <li>パスワード・認証設定の変更禁止</li>
+    </ul>
+
+    <h2>第3条（使用範囲の制限）</h2>
+    <p>Narrow One以外での使用を一切禁止します。</p>
+
+    <h2>第4条（コメント行為）</h2>
+    <ul>
+      <li>Narrow One内でのコメントスパム行為を禁止</li>
+      <li>警告・BANの原因となる行為を禁止</li>
+    </ul>
+
+    <h2>第5条（YouTubeの利用）</h2>
+    <ul>
+      <li>主（エスビエフ）の事前許可がある場合のみ利用可</li>
+      <li>コメントは投稿前に内容提示・承認必須</li>
+    </ul>
+
+    <h2>第6条（表示名について）</h2>
+    <p>本Googleアカウントに表示される名前は<strong>主の本名ではありません</strong>。個人情報の特定・推測を禁止します。</p>
+
+    <h2>第7条（責任の完全帰属・免責）</h2>
+    <p class="danger">本アカウント利用により発生したすべての行為・結果・損害・トラブル・規約違反・違法行為・第三者との紛争について、<u>責任は100％利用者本人に帰属</u>します。</p>
+    <p class="danger">主（エスビエフ）は、民事・刑事・損害賠償・その他一切の責任を負いません。</p>
+
+    <h2>第8条（違反時の措置）</h2>
+    <p>規約違反が確認された場合、事前通知なく共有利用を停止し、永久的に利用を禁止します。</p>
+
+    <hr>
+
+    <div class="form">
+      <div>
+        <label>ニックネーム（記録用）</label>
+        <input type="text" id="nickname" placeholder="例：EsuviF">
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="agree">
+        <label for="agree">利用規約をすべて読み、内容に同意します</label>
+      </div>
+      <button class="primary" id="agreeBtn" onclick="goFinal()" disabled>同意しました</button>
+    </div>
+  </div>
+
+  <!-- PAGE 2: 最終警告 -->
+  <div class="card hidden" id="page2">
+    <h1 class="danger center">【最終警告】</h1>
+    <p class="danger center">
+      スクリーンショット・画面録画・転載は禁止転載は禁止転載は禁止  
+      第三者への共有が確認された場合、即時利用停止とします。
+    </p>
+
+    <div class="note">
+      <p class="danger">本アカウントを利用したすべての行為の最終責任は<strong>利用者本人</strong>が負います。</p>
+      <p>同意日時：<span id="date"></span><br>
+         同意者名（ニックネーム）：<span id="name"></span></p>
+    </div>
+
+    <div class="center">
+      <button class="secondary" onclick="showInfo()">共有アカウントのメールアドレスを取得</button>
+    </div>
+
+    <div id="info" class="hidden" style="margin-top:18px">
+      <div class="form">
+        <div>
+          <label>メールアドレス</label>
+          <input type="text" value="nanamisatoun1@gmail.com" readonly>
+        </div>
+        <div>
+ <label>パスワード</label>
+<div style="display:flex; gap:8px; align-items:center;">
+  <input id="passwordField" type="password" value="satouzyaneeyo">
+  <button type="button" onclick="togglePassword()" style="
+    background:#2a2b2f;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    padding:8px 10px;
+    cursor:pointer;
+    font-size:14px;
+  ">👁</button>
+</div>
+<script>
+function togglePassword(){
+  const pw = document.getElementById("passwordField");
+  if(pw.type === "password"){
+    pw.type = "text";
+  } else {
+    pw.type = "password";
+  }
+}
+</script>
+        </div>
+        <p class="danger center">※管理責任は利用者本人にあります</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">© Narrow One Shared Account Rule</div>
+</div>
+
+<script>
+const agree = document.getElementById('agree');
+const agreeBtn = document.getElementById('agreeBtn');
+agree.addEventListener('change', ()=> agreeBtn.disabled = !agree.checked);
+
+function goFinal(){
+  const nick = document.getElementById('nickname').value.trim();
+  if(!nick){ alert('ニックネームを入力してください'); return; }
+  document.getElementById('page1').classList.add('hidden');
+  document.getElementById('page2').classList.remove('hidden');
+  document.getElementById('name').textContent = nick;
+  document.getElementById('date').textContent = new Date().toLocaleString();
+}
+function showInfo(){
+  document.getElementById('info').classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>
